@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image";
-import logo from "@/public/logo.png";
 import Link from "next/link";
 import 'boxicons/css/boxicons.min.css';
 import { useState } from "react";
@@ -18,7 +17,7 @@ export default function Header() {
     <div>
       <nav className="navbar">
         <div className="logo">
-          <Image src={logo} alt="Logo" width={50} height={50} />
+          <Image src={"/logo.png"} alt="Logo" width={50} height={50} />
         </div>
         <div className="hamburger" id="hamburger" onClick={toggleNav}>
           <i className="bx bx-menu"></i>

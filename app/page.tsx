@@ -35,7 +35,7 @@ const Home: React.FC = () => {
       <div className="content">
         <h3>Hello, It&apos;s me</h3>
         <h3>Muhammad Arman</h3>
-        <h4>& I'm <span ref={typedElement}> </span></h4>
+        <h4>& I m <span ref={typedElement}> </span></h4>
         <p>
           Hi, I am Muhammad Arman, a passionate AI engineer and full-stack
           developer with a passion for building intelligent systems and seamless
