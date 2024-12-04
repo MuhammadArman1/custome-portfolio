@@ -53,7 +53,7 @@ export default function Contact() {
           }}
         >
           <h3>Form Submitted!</h3>
-          <p>Thank you for reaching out. We'll get back to you soon!</p>
+          <p>Thank you for reaching out. Well get back to you soon!</p>
           <button onClick={handleClosePopup} style={{ marginTop: '10px' }}>
             Close
           </button>

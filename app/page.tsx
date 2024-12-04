@@ -33,7 +33,7 @@ const Home: React.FC = () => {
     <>
     <header className="container">
       <div className="content">
-        <h3>Hello, It's me</h3>
+        <h3>Hello, It&apos;s me</h3>
         <h3>Muhammad Arman</h3>
         <h4>& I'm <span ref={typedElement}> </span></h4>
         <p>
