@@ -30,7 +30,7 @@ function setProgress(element: HTMLElement, value: number) {
     }, speed);
   }
   
-  const skill: React.FC = () => {
+  const Skill: React.FC = () => {
     useEffect(() => {
       const progressElements = [
         { id: 'progress1', endValue: 70 },
@@ -98,4 +98,4 @@ function setProgress(element: HTMLElement, value: number) {
   )
 }
 
-export default skill;
+export default Skill;
